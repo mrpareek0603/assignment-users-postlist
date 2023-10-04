@@ -1,11 +1,11 @@
-import { useRef, useState } from "react";
+import {useState} from "react";
 import styles from "./ModalPopup.module.css";
+
 const useModalPopup = () => {
+
   const [showModal, setshowModal] = useState(false);
-  const modalref = useRef(null);
   const closeModal = (event) => {
     event.stopPropagation();
-
     setshowModal(false);
   };
 
@@ -14,7 +14,6 @@ const useModalPopup = () => {
       <>
         {showModal && (
           <div
-            ref={modalref}
             onClick={closeModal}
             className={styles.modalwrapper}
           >
