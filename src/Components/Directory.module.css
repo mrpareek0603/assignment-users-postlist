@@ -1,0 +1,11 @@
+.directory {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  .userdetails {
+    display: flex;
+    flex-direction: column;
+  }
+  

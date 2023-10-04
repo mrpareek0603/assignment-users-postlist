@@ -1,0 +1,27 @@
+.modalwrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .modalcontent {
+    background: white;
+    color: black;
+    z-index: 999;
+  
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  

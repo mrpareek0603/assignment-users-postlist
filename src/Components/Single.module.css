@@ -1,0 +1,15 @@
+.user {
+    display: flex;
+    margin: 4px 0;
+    background: cornflowerblue;
+    padding: 20px 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .userwrapper a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
